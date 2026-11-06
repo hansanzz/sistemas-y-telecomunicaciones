@@ -1,0 +1,195 @@
+{
+  "lorem": {
+    "corto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.",
+    "medio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+    "largo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  "nav": [
+    {
+      "label": "Inicio",
+      "href": "index.php",
+      "page": "inicio"
+    },
+    {
+      "label": "Mi Perfil",
+      "href": "perfil.php",
+      "page": "perfil"
+    },
+    {
+      "label": "Tutoriales",
+      "href": "tutoriales.php",
+      "page": "tutoriales"
+    },
+    {
+      "label": "Ponete a Prueba",
+      "href": "formularios.php",
+      "page": "formularios"
+    },
+    {
+      "label": "Consultar",
+      "href": "login.php",
+      "page": "consultar"
+    }
+  ],
+  "herramientas": [
+    {
+      "label": "Descargas",
+      "icon": "⬇",
+      "href": "descargas.php"
+    },
+    {
+      "label": "Formularios",
+      "icon": "🗒",
+      "href": "formularios.php"
+    },
+    {
+      "label": "Mis Notas",
+      "icon": "✎",
+      "href": "notas.php"
+    },
+    {
+      "label": "Avisos",
+      "icon": "🔔",
+      "href": "avisos.php"
+    },
+    {
+      "label": "Índice",
+      "icon": "≣",
+      "href": "indice.php"
+    },
+    {
+      "label": "Administradores",
+      "icon": "🛠",
+      "href": "admin.php"
+    }
+  ],
+  "kebabMenu": [
+    {
+      "label": "Iniciar Sesión",
+      "href": "login.php"
+    },
+    {
+      "label": "Registrarse",
+      "href": "login.php"
+    },
+    {
+      "label": "¿Algún error? comentarios",
+      "href": "#"
+    }
+  ],
+  "perfil": {
+    "estadisticas": [
+      {
+        "label": "Lorem",
+        "valor": 35,
+        "color": "#7fb3ff"
+      },
+      {
+        "label": "Ipsum",
+        "valor": 25,
+        "color": "#4fd6d6"
+      },
+      {
+        "label": "Dolor",
+        "valor": 20,
+        "color": "#3d6bd8"
+      },
+      {
+        "label": "Sit",
+        "valor": 20,
+        "color": "#5ee0c9"
+      }
+    ]
+  },
+  "tutoriales": {
+    "titulo": "¿Cómo programar un ESP32?",
+    "lista": [
+      "¿Cómo programar un ESP32?",
+      "Lorem ipsum dolor sit amet",
+      "Consectetur adipiscing elit",
+      "Sed do eiusmod tempor",
+      "Ut labore et dolore magna"
+    ]
+  },
+  "formularios": {
+    "unidades": [
+      {
+        "numero": 1,
+        "titulo": "Introducción"
+      },
+      {
+        "numero": 2,
+        "titulo": "Topologías"
+      },
+      {
+        "numero": 4,
+        "titulo": "Modelo OSI"
+      },
+      {
+        "numero": 5,
+        "titulo": "Modelo TCP/IP"
+      },
+      {
+        "numero": 6,
+        "titulo": "Direccionamiento IP"
+      },
+      {
+        "numero": 7,
+        "titulo": "Máscara de subred"
+      },
+      {
+        "numero": 8,
+        "titulo": "Subredes 1"
+      }
+    ]
+  },
+  "adminAcciones": [
+    {
+      "label": "Buscar Alumno",
+      "tipo": "buscar",
+      "opciones": []
+    },
+    {
+      "label": "Agregar",
+      "tipo": "agregar",
+      "opciones": [
+        {
+          "label": "Alumno",
+          "entidad": "alumno"
+        },
+        {
+          "label": "Curso/Formulario",
+          "entidad": "curso"
+        }
+      ]
+    },
+    {
+      "label": "Editar",
+      "tipo": "editar",
+      "opciones": [
+        {
+          "label": "Alumno",
+          "entidad": "alumno"
+        },
+        {
+          "label": "Curso/Formulario",
+          "entidad": "curso"
+        }
+      ]
+    },
+    {
+      "label": "Eliminar",
+      "tipo": "eliminar",
+      "opciones": [
+        {
+          "label": "Alumno",
+          "entidad": "alumno"
+        },
+        {
+          "label": "Curso/Formulario",
+          "entidad": "curso"
+        }
+      ]
+    }
+  ]
+}
